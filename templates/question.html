@@ -1,7 +1,7 @@
 {%extends 'base.html'%} 
 
 
-{%block title%}Start Survey{%endblock%} 
+{%block title%}Question {{session['responses']|length + 1}}{%endblock%} 
 
 
 {%block content%}
